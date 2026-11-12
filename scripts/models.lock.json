@@ -1,0 +1,46 @@
+{
+  "community": {
+    "repository": "pyannote/speaker-diarization-community-1",
+    "revision": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee",
+    "folder": "community-1",
+    "files": {
+      ".gitattributes": "git-sha1:7c39301dc01fe65e09b2432a27a18b4ee3e74a37",
+      "README.md": "git-sha1:8356d6634d7b1074581dd36e2225887ec809326e",
+      "config.yaml": "git-sha1:4022db43960736338378fdb6b5a85cfdae198910",
+      "diarization.gif": null,
+      "embedding/README.md": "git-sha1:d71f943e00016652680bef1e6c49fbc842e0d4c4",
+      "embedding/pytorch_model.bin": null,
+      "plda/README.md": "git-sha1:5c01ad2e673203fe32a82d7a140eb817db9930b7",
+      "plda/plda.npz": null,
+      "plda/xvec_transform.npz": null,
+      "segmentation/pytorch_model.bin": null
+    }
+  },
+  "wespeaker": {
+    "repository": "Wespeaker/wespeaker-voxceleb-resnet34-LM",
+    "revision": "f0c48c298fd835726c27956a5d617bad7115627e",
+    "folder": "wespeaker",
+    "files": {
+      "voxceleb_resnet34_LM.onnx": "sha256:7bb2f06e9df17cdf1ef14ee8a15ab08ed28e8d0ef5054ee135741560df2ec068"
+    }
+  },
+  "asr": {
+    "repository": "moona3k/mlx-qwen3-asr-0.6b-8bit",
+    "revision": "83ce2a8ef9a382d2ba2209aab383bc51fff366f5",
+    "folder": "asr",
+    "files": {
+      ".gitattributes": "git-sha1:a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "README.md": "git-sha1:844acf4236042d730ff064d6fec348e12d660ad9",
+      "config.json": "git-sha1:8113d596dec2d1a2ef4552edfe005ee84d16d9ec",
+      "merges.txt": "git-sha1:31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "quantization_config.json": "git-sha1:e6eac67e9fa15d0f7936131151dcf0a29045caf7",
+      "tokenizer_config.json": "git-sha1:b93109843922a40c6654c5449d3bf95372267c66",
+      "vocab.json": "git-sha1:4783fe10ac3adce15ac8f358ef5462739852c569",
+      "weights.safetensors": "sha256:940d73134ef51218d923cce36a58f23e2286b16313a35e3b273937041069f844"
+    }
+  },
+  "ollama": {
+    "model": "qwen3.5:2b",
+    "digest": "0689d44085e06d165161a8a9a1731344278cfb5aade63a3c3dbdb48ab54b130a"
+  }
+}

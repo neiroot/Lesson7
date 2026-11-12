@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+.venv*
+.local/
+models/
+data/
+acceptance/local/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.sqlite*
+.DS_Store
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aiff
+
+# Local archives and unpacked copies of earlier versions.
+/*.zip
+/ai-meeting-analyzer/
+/ai-meeting-analyzer 2/
+/ai-meeting-analyzer 3/
+/Видеовстречи/
+/Видеовстречи2/
